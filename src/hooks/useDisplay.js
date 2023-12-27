@@ -1,11 +1,11 @@
 "use client";
-import { useState, useLayoutEffect } from "react";
+import { useState, useEffect } from "react";
 
 const useDisplay = () => {
   const [width, setWindowWidth] = useState(window.innerWidth);
   const [scrollY, setScroll] = useState(window.scrollY);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
     };
@@ -15,7 +15,7 @@ const useDisplay = () => {
     };
   }, []);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     const handleScroll = () => {
       setScroll(window.scrollY);
     };

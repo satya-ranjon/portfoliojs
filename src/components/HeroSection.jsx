@@ -23,7 +23,7 @@ const HeroSection = () => {
             and seeking opportunities to enhance my skills
           </p>
           <Link
-            href="/Satya_Ranjon_Sharma_Resume.pdf"
+            href="./Satya_Ranjon_Sharma_Resume.pdf"
             download
             className=" px-5 py-2 cursor-pointer bg-colorTwo text-colorThree font-semibold rounded-sm mt-5 z-50 w-fit  flex justify-start gap-2 items-center">
             <span className=" text-base">Download CV</span>
@@ -79,7 +79,7 @@ const HeroSection = () => {
                 technologies and seeking opportunities to enhance my skills
               </p>
               <Link
-                href="/Satya_Ranjon_Sharma_Resume.pdf"
+                href="./Satya_Ranjon_Sharma_Resume.pdf"
                 download
                 className=" px-5 py-2 cursor-pointer bg-colorTwo text-colorThree font-semibold rounded-sm mt-5 z-50 w-fit  flex justify-start gap-2 items-center">
                 <span className=" text-base">Download CV</span>
